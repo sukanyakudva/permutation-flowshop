@@ -11,7 +11,7 @@ import numpy as np
 import benchmark
 from iterated_greedy import IteratedGreedy
 
-
+'''
 def example1_random_data():
     """Execute the algorithm with randomly generated data."""
 
@@ -26,7 +26,7 @@ def example1_random_data():
     print("Best makespan", ig.best_solution.makespan,"iterations:", ig.iterations)
     print("Job sequence:", ig.best_solution.sequence)
 
-
+'''
 def example2_taillard():
     """Execute the algorithm with the first Taillard instance."""
 
@@ -47,5 +47,5 @@ def example2_taillard():
 
 
 if __name__ == "__main__":
-    example1_random_data()
+    #example1_random_data()
     example2_taillard()
