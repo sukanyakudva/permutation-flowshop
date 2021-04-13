@@ -4,7 +4,7 @@ permutation-flowshop repository
 Class for holding solutions and connecting makespan calculations
 that are implemented in C (through Cython library).
 """
-import pyximport;pyximport.install(pyimport=True)
+import pyximport;pyximport.install(pyximport=True)
 import numpy as np
 from cysource import calculations
 
